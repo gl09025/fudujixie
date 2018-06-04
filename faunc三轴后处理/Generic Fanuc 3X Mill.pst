@@ -544,7 +544,7 @@ fmt  J  3   jout        #Arc center description in Y
 fmt  K  3   kout        #Arc center description in Z
 fmt  R  2   arcrad$     #Arc Radius
 fmt  F  15  feed        #Feedrate
-fmt  P  11  dwell$      #Dwell
+fmt  P  16  dwell$      #Dwell
 fmt  M  5   cantext$    #Canned text
 fmt  F  2   pitch       #Tap pitch (units per thread)
 # --------------------------------------------------------------------------
@@ -734,6 +734,7 @@ ptlchg$          #Tool change
       pcan1, pbld, n$, *sgcode, *sgabsinc, pwcs, pfxout, pfyout,
         [if nextdc$ <> 7, *speed, *spindle], pgear, strcantext, e$
       pbld, n$, sg43, *tlngno$, pfzout, scoolant, pstagetool, e$
+      *sm08, e$
       absinc$ = sav_absinc
       pcom_movea
       toolchng = zero
