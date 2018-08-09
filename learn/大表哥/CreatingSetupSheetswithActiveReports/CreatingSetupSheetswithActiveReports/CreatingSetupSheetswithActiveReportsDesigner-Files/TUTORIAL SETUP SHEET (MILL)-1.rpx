@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="13680" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; " />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; " />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="PageHeader" Name="PageHeader1" Height="2160" BackColor="16777215" />
+    <Section Type="Detail" Name="Detail" Height="8280" BackColor="16777215" />
+    <Section Type="PageFooter" Name="PageFooter1" Height="720" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="C:\mcamx\common\reports\sst\samples\Mill\SSM.xml" Pattern="//SETUPSHEET" />
+  </DataSources>
+  <PageSettings TopMargin="360" BottomMargin="720" PaperSize="1" PaperWidth="-1438" PaperHeight="-1438" PaperName="" Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>

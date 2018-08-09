@@ -1,0 +1,5 @@
+public void Detail_Format()
+{
+    string m_machine = ((TextBox)rpt.Sections["Detail"].Controls["Data_NAME"]).Text;
+	rpt.Sections["Detail"].AddBookmark (m_machine);
+}

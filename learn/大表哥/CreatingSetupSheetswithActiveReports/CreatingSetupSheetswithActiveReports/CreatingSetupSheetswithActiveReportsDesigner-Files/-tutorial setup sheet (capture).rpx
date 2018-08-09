@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="9360" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0; " />
+    <Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit; " />
+    <Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="3600" BackColor="16777215">
+      <Control Type="AR.Image" Name="IMAGE_HOLDER" Left="90" Top="450" Width="3240" Height="2880" LineStyle="1" HyperLink="" SizeMode="2" />
+      <Control Type="AR.Field" Name="IMAGE_FILENAME" DataField="IMAGE" Visible="0" Left="180" Top="2160" Width="3096" Height="270.72" Text="IMAGE_FILENAME" Multiline="0" CanGrow="0" Style="text-align: center; font-size: 9.75pt; font-family: Arial Unicode MS; white-space: nowrap; " />
+      <Control Type="AR.Label" Name="IMAGE_NOT_FOUND" BorderLeftStyle="3" BorderTopStyle="3" BorderRightStyle="3" BorderBottomStyle="3" Left="180" Top="630" Width="3096" Height="1170.72" Caption="IMAGE NOT FOUND" Style="text-align: center; font-size: 8.25pt; font-family: Arial Unicode MS; vertical-align: middle; " />
+      <Control Type="AR.Field" Name="CAPTION" DataField="CAPTION" Left="90.72" Top="180" Width="3240" Height="270.72" Text="CAPTION" Style="font-style: italic; font-size: 8.25pt; " />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="C:\mcamx\common\reports\sst\samples\Mill\SSM.xml" Pattern="//CAPTURE" />
+  </DataSources>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

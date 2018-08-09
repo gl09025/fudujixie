@@ -1,0 +1,6 @@
+public void Detail_Format()
+{
+    string m_machine = ((TextBox)rpt.ParentReport.Sections["Detail"].Controls["Data_NAME"]).Text;
+    string m_list = ((TextBox)rpt.Sections["Detail"].Controls["Data_NAME"]).Text;
+	rpt.Sections["Detail"].AddBookmark (m_machine + "\\" + m_list);
+}

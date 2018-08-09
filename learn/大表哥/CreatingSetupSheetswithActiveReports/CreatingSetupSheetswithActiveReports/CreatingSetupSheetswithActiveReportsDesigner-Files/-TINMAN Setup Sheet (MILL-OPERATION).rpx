@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="17100" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; font-variant: inherit; font-weight: normal; font-size: 10pt; font-size-adjust: inherit; font-stretch: inherit; color: rgb(0,0,0); background-repeat: inherit; background-attachment: inherit; opacity: inherit; word-spacing: inherit; letter-spacing: inherit; text-decoration: none; vertical-align: inherit; text-transform: inherit; text-align: inherit; text-indent: inherit; unicode-bidi: inherit; line-height: inherit; white-space: inherit; ddo-char-set: 0; " />
+    <Style Name="Heading1" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 16pt; font-size-adjust: inherit; font-stretch: inherit; " />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-style: italic; font-variant: inherit; font-weight: bold; font-size: 14pt; font-size-adjust: inherit; font-stretch: inherit; " />
+    <Style Name="Heading3" Value="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; font-size: 13pt; font-size-adjust: inherit; font-stretch: inherit; " />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="6336" BackColor="16777215" KeepTogether="1" CanShrink="1">
+      <Control Type="AR.Shape" Name="Shape1" Left="2880" Top="2520" Width="3240" Height="1530" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Label" Name="Label7" Left="2970" Top="3420" Width="806.4" Height="270" Caption="FLUTES:" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label25" Left="2970" Top="2880" Width="1980" Height="270" Caption="TOOL OFFSETS:" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Image" Name="IMAGE_HOLDER_1" Left="0" Top="540" Width="2610" Height="2160" LineStyle="1" HyperLink="" SizeMode="2" />
+      <Control Type="AR.Shape" Name="Shape2" Left="0" Top="2790" Width="2610" Height="1260" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Field" Name="IMAGE_FILENAME_1" DataField="IMAGE" Visible="0" Left="270" Top="1800" Width="1800" Height="270" Text="IMAGE_FILENAME" Multiline="0" CanGrow="0" Style="text-align: center; font-size: 9.75pt; font-family: Arial Unicode MS; white-space: nowrap; " />
+      <Control Type="AR.Label" Name="IMAGE_NOT_FOUND_1" BorderLeftStyle="3" BorderTopStyle="3" BorderRightStyle="3" BorderBottomStyle="3" Left="270" Top="630" Width="1620" Height="720" Caption="IMAGE NOT AVAILABLE" Style="text-align: center; font-size: 8.25pt; font-family: Arial Unicode MS; vertical-align: middle; " />
+      <Control Type="AR.Label" Name="Label" Left="90" Top="2880" Width="1350" Height="270" Caption="SPINDLE SPD:" Style="font-size: 8pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label10" Left="90" Top="3150" Width="1353.6" Height="270" Caption="FEEDRATE:" Style="font-size: 8pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="TOOL_DESCRIPTION" DataField="TOOL/DESCRIPTION" Left="2880" Top="630" Width="3600" Height="270" Caption="TOOL-DESCRIPTION" Style="text-align: left; font-weight: normal; font-style: italic; font-size: 7pt; font-family: Arial Unicode MS; vertical-align: top; " />
+      <Control Type="AR.Field" Name="IMAGE_FILENAME_2" DataField="TOOL/IMAGE" Visible="0" Left="2970" Top="1800" Width="1260" Height="180" Text="IMAGE_FILENAME_2" Multiline="0" CanGrow="0" Style="text-align: center; font-size: 6pt; font-family: Arial Unicode MS; white-space: nowrap; " />
+      <Control Type="AR.Label" Name="IMAGE_NOT_FOUND_2" BorderLeftStyle="3" BorderTopStyle="3" BorderRightStyle="3" BorderBottomStyle="3" Left="3060" Top="1170" Width="990" Height="450" Caption="IMAGE NOT AVAILABLE" Style="text-align: center; font-size: 6pt; font-family: Arial Unicode MS; vertical-align: middle; " />
+      <Control Type="AR.Label" Name="Label3" Left="90" Top="3690" Width="1353.6" Height="270" Caption="WORK OFFSET:" Style="font-size: 8pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="SPINDLE_SPEED" DataField="SPINDLE-SPEED" Left="1440" Top="2880" Width="1170" Height="270" Text="SPINDLE-SPEED" Style="font-size: 8pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="FEEDRATE" DataField="FEEDRATE" Left="1440" Top="3150" Width="1170" Height="270" Text="FEEDRATE" Style="font-size: 8pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="TPLANE_WOFF" DataField="TPLANE-WOFF" Left="1440" Top="3690" Width="1170" Height="270" Text="TPLANE-WOFF" Style="font-size: 8pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label8" Left="2970" Top="3150" Width="810" Height="270" Caption="DIAMETER:" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="FLUTES" DataField="TOOL/FLUTES" Left="3780" Top="3420" Width="540" Height="270" Text="FLUTES" Style="text-align: right; font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="DIAMETER" DataField="TOOL/DIAMETER" Left="3780" Top="3150" Width="540" Height="270" Text="DIAMETER" Style="text-align: right; font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label5" Left="2970" Top="3690" Width="806.4" Height="270" Caption="LENGTH:" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="LENGTH" DataField="TOOL/OVERALL-LENGTH" Left="3780" Top="3690" Width="540" Height="270" Text="LENGTH" Style="text-align: right; font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label11" Left="4680" Top="3420" Width="540" Height="270.72" Caption="SFM:" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label12" Left="4680" Top="3690" Width="1080" Height="270" Caption="CORNER RAD:" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label9" Left="4680" Top="3150" Width="540" Height="270" Caption="FPT:" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="HOLDER_NAME" DataField="TOOL/HOLDER-NAME" Left="3690" Top="2610" Width="900" Height="270" Text="HOLDER NAME" CanShrink="1" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="FPT" DataField="TOOL/FPT" Left="5220" Top="3150" Width="810" Height="270" Text="FPT" CanShrink="1" Style="text-align: right; font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="SFM" DataField="TOOL/SFM" Left="5220" Top="3420" Width="810" Height="270" Text="SFM" CanShrink="1" Style="text-align: right; font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Line" Name="Line1" X1="4500" Y1="3150" X2="4500" Y2="4050" />
+      <Control Type="AR.Image" Name="IMAGE_HOLDER_2" BorderLeftStyle="1" BorderTopStyle="1" BorderRightStyle="1" BorderBottomStyle="1" Left="2880" Top="990" Width="1440" Height="1440" LineStyle="1" HyperLink="" SizeMode="2" />
+      <Control Type="AR.Shape" Name="Shape3" BorderLeftStyle="1" BorderTopStyle="1" BorderRightStyle="1" BorderBottomStyle="1" Left="6570" Top="450" Width="6840" Height="3600" BackColor="16777215" LineWeight="2" RoundingRadius="9.999999" />
+      <Control Type="AR.Label" Name="Label14" BorderBottomStyle="1" Left="6660" Top="540" Width="6660" Height="270" Caption="COMMENTS:" Style="font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label16" BorderBottomStyle="1" Left="6660" Top="1260" Width="6660" Height="270" Caption="" Style="font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label22" BorderBottomStyle="6" Left="6660" Top="3420" Width="6660" Height="270" Caption="" Style="font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label17" BorderBottomStyle="1" Left="6660" Top="1620" Width="6660" Height="270" Caption="" Style="font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label21" BorderBottomStyle="1" Left="6660" Top="3060" Width="6660" Height="270" Caption="" Style="font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label19" BorderBottomStyle="1" Left="6660" Top="2340" Width="6660" Height="270" Caption="" Style="font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label15" BorderBottomStyle="1" Left="6660" Top="900" Width="6660" Height="270" Caption="" Style="font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label18" BorderBottomStyle="1" Left="6660" Top="1890" Width="6660" Height="360" Caption="" Style="font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label20" BorderBottomStyle="1" Left="6660" Top="2700" Width="6660" Height="270" Caption="" Style="font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label23" BorderBottomStyle="1" Left="6660" Top="3690" Width="6660" Height="270" Caption="EST CYCLE TIME:" Style="font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="EST_TIME_SHORT" DataField="TIME-SHORT" Left="8460" Top="3690" Width="1710" Height="270" Text="TIME-SHORT" Style="font-size: 10pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label6" BorderBottomStyle="1" Left="9990" Top="3690" Width="1890" Height="270" Caption="ACTUAL TIME:" Style="font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="COMMENT" DataField="COMMENT" Left="6660" Top="900" Width="6660" Height="1080" Caption="COMMENT-119CHARACTERLIMIT" Style="font-weight: normal; font-style: italic; font-size: 9pt; font-family: Arial Unicode MS; white-space: inherit; " LineSpacing="3" />
+      <Control Type="AR.Field" Name="OP_TIME_SHORT" DataField="TIME-SHORT" Left="1440" Top="3420" Width="1170" Height="270" Text="TIME-SHORT" Style="font-size: 8pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label2" Left="90" Top="3420" Width="1353.6" Height="270" Caption="CYCLE TIME:" Style="font-size: 8pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="HOLDER_LIB" DataField="TOOL/HOLDER-LIB" Left="5220" Top="2610" Width="810" Height="270" Text="HOLDER LIB" CanShrink="1" Style="text-align: left; font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label13" Left="2970" Top="2610" Width="720" Height="270" Caption="HOLDER:" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label26" Left="4500" Top="2610" Width="810" Height="270" Caption="LIBRARY:" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="CORNER_RADIUS" DataField="TOOL/CORNER-RADIUS" Left="5220" Top="3690" Width="810" Height="270" Text="CORNER RADIUS" CanShrink="1" Style="text-align: right; font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label27" Left="4590" Top="2880" Width="270" Height="270" Caption="(D)" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Label" Name="Label28" Left="5310" Top="2880" Width="360" Height="270" Caption="(L)" Style="font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="DIAMETER_OFFSET" DataField="TOOL/DIAMETER-OFFSET" Left="4230" Top="2880" Width="360" Height="270" Text="DIAMETER-OFFSET" CanShrink="1" Style="text-align: right; font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="LENGTH_OFFSET" DataField="TOOL/LENGTH-OFFSET" Left="4950" Top="2880" Width="360" Height="270" Text="LENGTH-OFFSET" CanShrink="1" Style="text-align: right; font-size: 7pt; font-family: Arial Unicode MS; " />
+      <Control Type="AR.Field" Name="NAME" DataField="NAME" Left="0" Top="180" Width="6480" Height="360" Text="NAME" Style="font-weight: bold; font-style: italic; font-size: 10pt; font-family: Arial Unicode MS; " />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="C:\mcamx\common\reports\sst\samples\Mill\SSM.xml" Pattern="//OPERATION" />
+  </DataSources>
+  <PageSettings Orientation="2" />
+  <Parameters />
+</ActiveReportsLayout>
