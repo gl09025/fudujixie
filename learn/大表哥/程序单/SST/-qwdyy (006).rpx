@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="1831.68" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; ddo-char-set: 204; color: Black" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="576" BackColor="16777215">
+      <Control Type="AR.Field" Name="TextBox1" DataField="NAME" Left="0" Top="0" Width="1831.68" Height="576" Text="STOCK-TO-LEAVE" Style="font-family: 宋体; font-size: 9.75pt; text-align: center; vertical-align: middle; white-space: inherit; ddo-char-set: 134; ddo-font-vertical: none" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="..\SST\SAMPLES\MILL\SSM.xml" Pattern="//SETUPSHEET//NCFILE//TOOLS//TOOL//OPERATION" />
+  </DataSources>
+  <Script><![CDATA[
+
+
+]]></Script>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActiveReportsLayout Version="3.1" PrintWidth="16704" DocumentName="ARNet Document" ScriptLang="VB.NET" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; ddo-char-set: 204; color: Black" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; ddo-char-set: 204" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; ddo-char-set: 204" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; ddo-char-set: 204" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="Detail" Name="Detail" Height="576" BackColor="16777215">
+      <Control Type="AR.Field" Name="TextBox8" DataField="FEEDRATE" Left="839.52" Top="0" Width="1244.16" Height="576" Text="TextBox2" Style="text-align: center; vertical-align: middle" />
+      <Control Type="AR.Field" Name="TextBox2" DataField="COOLANT" Left="2082.24" Top="0" Width="1183.68" Height="576" Text="TextBox2" Style="text-align: center; vertical-align: middle" />
+      <Control Type="AR.Field" Name="TextBox1" DataField="NUMBER" Left="0" Top="0" Width="839.52" Height="576" Text="编号" Style="font-family: 宋体; font-size: 9.75pt; text-align: center; text-justify: auto; vertical-align: middle; ddo-char-set: 134" />
+      <Control Type="AR.Field" Name="TextBox3" DataField="TYPE" Left="3267.36" Top="0" Width="1005.12" Height="576" Text="刀具类型" Style="font-family: 宋体; font-size: 9.75pt; text-align: center; vertical-align: middle; ddo-char-set: 134" />
+      <Control Type="AR.Field" Name="TextBox4" DataField="CORNER-RADIUS" Left="5428.8" Top="0" Width="1018.081" Height="576" Text="刀角半径" Style="font-family: 宋体; font-size: 9.75pt; text-align: center; vertical-align: middle; ddo-char-set: 134" />
+      <Control Type="AR.Field" Name="TextBox5" DataField="COMMENT" Left="6446.88" Top="0" Width="1664.64" Height="576" Text="刀具名称" Style="font-family: 宋体; font-size: 9.75pt; text-align: center; vertical-align: middle; ddo-char-set: 134" />
+      <Control Type="AR.Field" Name="TextBox6" DataField="DIAMETER" Left="8111.521" Top="0" Width="1019.519" Height="576" Text="刀具长度" Style="font-family: 宋体; font-size: 9.75pt; text-align: center; vertical-align: middle; ddo-char-set: 134" />
+      <Control Type="AR.Field" Name="TextBox7" DataField="HOLDER-DIAMETER" Left="9131.04" Top="0" Width="764.64" Height="576" Text="夹头" Style="font-family: 宋体; font-size: 9.75pt; text-align: center; vertical-align: middle; ddo-char-set: 134" />
+      <Control Type="AR.Field" Name="TextBox11" DataField="TIME-SHORT" Left="14019.84" Top="0" Width="2592" Height="576" Text="加工时间" Style="font-family: 宋体; font-size: 9.75pt; text-align: center; vertical-align: middle; ddo-char-set: 134" />
+      <Control Type="AR.Line" Name="Line1" X1="3265.92" Y1="576" X2="3267.36" Y2="0" />
+      <Control Type="AR.Line" Name="Line2" X1="839.52" Y1="576" X2="841.4399" Y2="0" />
+      <Control Type="AR.Line" Name="Line3" X1="4272.48" Y1="288" X2="4274.4" Y2="0" />
+      <Control Type="AR.Line" Name="Line4" X1="6446.88" Y1="576" X2="6447.359" Y2="0" />
+      <Control Type="AR.Line" Name="Line5" X1="8111.521" Y1="576" X2="8113.44" Y2="0" />
+      <Control Type="AR.Line" Name="Line6" X1="9131.04" Y1="576" X2="9131.521" Y2="0" />
+      <Control Type="AR.Line" Name="Line7" X1="9895.681" Y1="576" X2="9896.16" Y2="0" />
+      <Control Type="AR.Line" Name="Line8" X1="11273.76" Y1="576" X2="11275.68" Y2="0" />
+      <Control Type="AR.Line" Name="Line9" X1="12189.6" Y1="576" X2="12191.52" Y2="0" />
+      <Control Type="AR.Line" Name="Line11" X1="14019.84" Y1="576" X2="14021.76" Y2="0" />
+      <Control Type="AR.Field" Name="TextBox12" DataField="DIAMETER" Left="4273.92" Top="0" Width="1154.88" Height="576" Text="刀具直径" Style="font-family: 宋体; font-size: 9.75pt; text-align: center; vertical-align: middle; ddo-char-set: 134" />
+      <Control Type="AR.Line" Name="Line10" X1="5428.8" Y1="576" X2="5429.28" Y2="0" />
+      <Control Type="AR.Line" Name="Line12" X1="4273.92" Y1="576" X2="4275.84" Y2="0" />
+      <Control Type="AR.Line" Name="Line14" X1="16611.84" Y1="576" X2="16611.84" Y2="0" />
+      <Control Type="AR.Shape" Name="Shape1" Left="0" Top="0" Width="16611.84" Height="576" BackColor="16777215" RoundingRadius="9.999999" />
+      <Control Type="AR.Line" Name="Line13" X1="2082.24" Y1="576" X2="2084.16" Y2="0" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <XmlDataSource FileURL="..\SST\SAMPLES\MILL\SSM.xml" Pattern="//TOOL" />
+  </DataSources>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>
