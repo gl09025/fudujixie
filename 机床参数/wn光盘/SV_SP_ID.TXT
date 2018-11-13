@@ -1,0 +1,75 @@
+%
+SERVO INFORMATION 
+
+
+X AXIS
+
+*SERVO MOTOR SPEC                     
+*SERVO MOTOR S/N            
+*PULSECODER SPEC.                       
+*PULSECODER S/N           
+*SV SPEC.                               
+*SV S/N                       
+*PS SPEC.                               
+*PS S/N                       
+*SV SOFT EDITION          
+*PS SOFT EDITION          
+ EXT.SENSOR1 SPEC                       
+ EXT.SENSOR1 S/N          
+ EXT.SENSOR2 SPEC                       
+ EXT.SENSOR2 S/N          
+
+
+Y AXIS
+
+*SERVO MOTOR SPEC                     
+*SERVO MOTOR S/N            
+*PULSECODER SPEC.                       
+*PULSECODER S/N           
+*SV SPEC.                               
+*SV S/N                       
+*PS SPEC.                               
+*PS S/N                       
+*SV SOFT EDITION          
+*PS SOFT EDITION          
+ EXT.SENSOR1 SPEC                       
+ EXT.SENSOR1 S/N          
+ EXT.SENSOR2 SPEC                       
+ EXT.SENSOR2 S/N          
+
+
+Z AXIS
+
+*SERVO MOTOR SPEC                     
+*SERVO MOTOR S/N            
+*PULSECODER SPEC.                       
+*PULSECODER S/N           
+*SV SPEC.                               
+*SV S/N                       
+*PS SPEC.                               
+*PS S/N                       
+*SV SOFT EDITION          
+*PS SOFT EDITION          
+ EXT.SENSOR1 SPEC                       
+ EXT.SENSOR1 S/N          
+ EXT.SENSOR2 SPEC                       
+ EXT.SENSOR2 S/N          
+
+
+
+
+SPINDLE INFORMATION 
+
+
+S1
+
+ MAINSP MOTOR SPC                     
+ MAINSP MOTOR S/N           
+ SP SPEC.         A06B-6320-H364        
+ SP S/N           V17Z20470   
+ PS SPEC.         A06B-6320-H364        
+ PS S/N           V17Z20470   
+ PS SOFT EDITION  9G1015.0
+
+
+%
