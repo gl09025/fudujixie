@@ -1,8 +1,8 @@
 %
 O0000 (11-kuokong)
 (PROGRAM   - 11-kuokong.NC)
-(DATE      - 2022/05/14)
-(TIME      - 17:40)
+(DATE      - 2022/06/18)
+(TIME      - 19:58)
 (T16  - 12 Ô²±ÇÏ³µ¶          - H16  - D16  - D12.000mm - R0.800mm)
 (T7   - 12 XD                - H7   - D7   - D12.000mm)
 (OVERALL MAX - Z100.)
@@ -13235,6 +13235,6 @@ M09
 M05
 G91 G28 Z0.
 G28 Y0.
-G90
+G90 G54 X0.
 M30
 %
