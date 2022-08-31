@@ -1,0 +1,221 @@
+﻿UG to STEP
+! INFO-     NX STEP AP203 - V10.0
+! INFO-      
+! INFO-     Start of Translation: 29-AUG-2022  9:32:49 AM
+! INFO-      
+! STATUS-   Converting Part: E:\F-drive-26067\download\a\b\GitHub\fudujixie\刀路程序\Flying\HFC369-2FS-004_A_Fin+bar\HFC369-2FS-004_A_Fin bar.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-  For Part: E:\F-drive-26067\download\a\b\GitHub\fudujixie\刀路程序\Flying\HFC369-2FS-004_A_Fin+bar\HFC369-2FS-004_A_Fin bar.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  B-Curve .....................:   156
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     2
+! SUMMARY-  Parameter ...................:     1
+! SUMMARY-  Matrix ......................:     1
+! SUMMARY-  Component ...................:     6
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            171
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-  For Part: HFC369-2FS-004-01_A_Fin bar L.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     5
+! SUMMARY-  Line ........................:    12
+! SUMMARY-  Arc/Circle ..................:    12
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     2
+! SUMMARY-  Parameter ...................:     1
+! SUMMARY-  Matrix ......................:     1
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:
+! SUMMARY-     Body .....................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             39
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-  For Part: HFC369-2FS-004-02_A_Fin bar R.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     5
+! SUMMARY-  Line ........................:    12
+! SUMMARY-  Arc/Circle ..................:    12
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     2
+! SUMMARY-  Parameter ...................:     1
+! SUMMARY-  Matrix ......................:     2
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:
+! SUMMARY-     Body .....................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             40
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-  For Part: HFC369-2FS-004-04_A_Fin bar D.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Line ........................:    12
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     2
+! SUMMARY-  Parameter ...................:     1
+! SUMMARY-  Matrix ......................:     1
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:
+! SUMMARY-     Body .....................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             23
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-  For Part: HFC369-2FS-004-03_A_Fin bar C.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Line ........................:     8
+! SUMMARY-  Arc/Circle ..................:     4
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     2
+! SUMMARY-  Parameter ...................:     1
+! SUMMARY-  Matrix ......................:     2
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:
+! SUMMARY-     Body .....................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             24
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-  For Part: HFC369-2FS-004-05_A_Fin bar S.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     2
+! SUMMARY-  Parameter ...................:     1
+! SUMMARY-  Matrix ......................:     1
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid .......................:
+! SUMMARY-     Body .....................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             11
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 29-AUG-2022 9:32:53 AM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        1
+! SUMMARY-  File_Name        HFC369-2FS-004_A_Fin bar.stp
+! SUMMARY-  Date             2022-08-29T09:32:53+08:00
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v16
+! SUMMARY-  Orig_System      SIEMENS PLM Software NX 10.0
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_brep_shape_representation .........................:      5
+! SUMMARY-  advanced_face ..............................................:    109
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  application_protocol_definition ............................:      1
+! SUMMARY-  approval ...................................................:     24
+! SUMMARY-  approval_date_time .........................................:     24
+! SUMMARY-  approval_person_organization ...............................:     24
+! SUMMARY-  approval_role ..............................................:     24
+! SUMMARY-  approval_status ............................................:     24
+! SUMMARY-  axis2_placement_3d .........................................:    201
+! SUMMARY-  b_spline_curve_with_knots ..................................:    156
+! SUMMARY-  calendar_date ..............................................:     42
+! SUMMARY-  cartesian_point ............................................:   1855
+! SUMMARY-  cc_design_approval .........................................:     24
+! SUMMARY-  cc_design_date_and_time_assignment .........................:     18
+! SUMMARY-  cc_design_person_and_organization_assignment ...............:     30
+! SUMMARY-  cc_design_security_classification ..........................:     12
+! SUMMARY-  circle .....................................................:     71
+! SUMMARY-  closed_shell ...............................................:      5
+! SUMMARY-  conical_surface ............................................:      5
+! SUMMARY-  context_dependent_shape_representation .....................:      6
+! SUMMARY-  conversion_based_unit_and_plane_angle_unit .................:      1
+! SUMMARY-  coordinated_universal_time_offset ..........................:     42
+! SUMMARY-  cylindrical_surface ........................................:     31
+! SUMMARY-  date_and_time ..............................................:     42
+! SUMMARY-  date_time_role .............................................:     18
+! SUMMARY-  design_context .............................................:      6
+! SUMMARY-  dimensional_exponents ......................................:      1
+! SUMMARY-  direction ..................................................:    601
+! SUMMARY-  edge_curve .................................................:    268
+! SUMMARY-  edge_loop ..................................................:    136
+! SUMMARY-  ellipse ....................................................:     14
+! SUMMARY-  face_bound .................................................:     43
+! SUMMARY-  face_outer_bound ...........................................:     93
+! SUMMARY-  geometric_curve_set ........................................:      3
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      6
+! SUMMARY-  geometrically_bounded_wireframe_shape_representation .......:      3
+! SUMMARY-  item_defined_transformation ................................:      6
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:    199
+! SUMMARY-  local_time .................................................:     42
+! SUMMARY-  manifold_solid_brep ........................................:      5
+! SUMMARY-  mechanical_context .........................................:      6
+! SUMMARY-  next_assembly_usage_occurrence .............................:      6
+! SUMMARY-  organization ...............................................:     54
+! SUMMARY-  oriented_edge ..............................................:    536
+! SUMMARY-  person .....................................................:      1
+! SUMMARY-  person_and_organization ....................................:     54
+! SUMMARY-  person_and_organization_role ...............................:     30
+! SUMMARY-  plane ......................................................:     73
+! SUMMARY-  plane_angle_measure_with_unit ..............................:      1
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:      6
+! SUMMARY-  product_category ...........................................:      7
+! SUMMARY-  product_definition .........................................:      6
+! SUMMARY-  product_definition_formation_with_specified_source .........:      6
+! SUMMARY-  product_definition_shape ...................................:     12
+! SUMMARY-  product_related_product_category ...........................:      6
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:      6
+! SUMMARY-  security_classification ....................................:     12
+! SUMMARY-  security_classification_level ..............................:     12
+! SUMMARY-  shape_definition_representation ............................:      6
+! SUMMARY-  shape_representation .......................................:      6
+! SUMMARY-  shape_representation_relationship ..........................:      8
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  uncertainty_measure_with_unit ..............................:      6
+! SUMMARY-  vector .....................................................:    199
+! SUMMARY-  vertex_point ...............................................:    178
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                           5461
+! INFO-      
+! INFO-     User interface/default file
+! INFO-     Bspline aprx. value in effect for this translation : 2.540000e-002 mm
+! INFO-      
+! INFO-     Total number of solids input for this translation  :       5
+! INFO-      
+! INFO-     Number of solids processed without problems        :       5
+! INFO-      
+! INFO-     Number of solids with problems output as sheets    :       0
+! INFO-      
+! INFO-     Number of solids not processed                     :       0
+! INFO-      
+! INFO-     End of Translation: 29-AUG-2022  9:32:54 AM
+! INFO-      
